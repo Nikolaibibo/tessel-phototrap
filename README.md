@@ -15,3 +15,9 @@ http://www.tessel.io
 http://www.adafruit.com/products/189
 
 - a few wires
+
+
+
+
+Test the code:
+tessel run phototrap.js --upload-dir ./
