@@ -1,0 +1,29 @@
+{
+  "name": "tessel-phototrap",
+  "version": "1.0.0",
+  "description": "creates a photo trap with the help of a tessel, a PIR sensor and a few lines of code",
+  "main": "phototrap.js",
+  "scripts": {
+    "test": "tessel run phototrap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nikolaibibo/tessel-phototrap.git"
+  },
+  "keywords": [
+    "javascript",
+    "tessel",
+    "pir",
+    "camera"
+  ],
+  "author": "Nikolai Bockholt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikolaibibo/tessel-phototrap/issues"
+  },
+  "homepage": "https://github.com/Nikolaibibo/tessel-phototrap",
+  "dependencies": {
+    "camera-vc0706": "^0.1.6",
+    "pir": "0.0.6"
+  }
+}
