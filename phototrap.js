@@ -19,6 +19,8 @@ var isBusy = false;
 // camera listener
 camera.on('ready', function () {
 
+  console.log("cam ready");
+
   PIR.on('rise', function(time) {
 
     if (!isBusy) {
@@ -26,6 +28,10 @@ camera.on('ready', function () {
       isBusy = true;
       lights.blue.toggle();
       makePhoto();
+    }else {
+
+      console.log("cam not ready");
+
     }
 
   });
@@ -56,6 +62,8 @@ function makePhoto () {
       console.log('Picture saving as', name, '...');
       process.sendfile(name, image);
       console.log('done.');
+      
+      isBusy = false;
 
     }
 

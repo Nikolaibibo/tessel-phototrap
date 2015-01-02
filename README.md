@@ -20,4 +20,4 @@ http://www.adafruit.com/products/189
 
 
 Test the code:
-tessel run phototrap.js --upload-dir ./
+tessel run phototrap.js --upload-dir ./images
